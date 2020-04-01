@@ -1,0 +1,24 @@
+{
+  "name": "knex-fp",
+  "version": "0.0.2",
+  "description": "FP function for Knex",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "author": "oomusou <oomusou@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "babel src --out-dir dist",
+    "all": "yarn clean && cross-env NODE_ENV=production yarn build && yarn publish"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "cross-env": "^6.0.3",
+    "rimraf": "^3.0.0"
+  }
+}
