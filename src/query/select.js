@@ -1,1 +1,1 @@
-export let select = (...v) => k => k.select(v)
+export let select = (...v) => k => k.select(...v)

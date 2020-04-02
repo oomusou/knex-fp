@@ -1,1 +1,1 @@
-export let where = v => k => k.where(v)
+export let where = (...v) => k => k.where(...v)
