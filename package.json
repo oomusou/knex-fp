@@ -1,6 +1,6 @@
 {
   "name": "knex-fp",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "FP function for Knex",
   "main": "dist/index.js",
   "files": [
